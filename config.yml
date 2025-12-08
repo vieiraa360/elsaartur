@@ -1,0 +1,12 @@
+tunnel: elsa-site
+# This is usually the path to your credentials file (often a .json file)
+credentials-file: C:\Users\helde\.cloudflared\<some-uuid>.json
+
+# ⬅️ 🎯 THIS IS THE CRITICAL LINE TO ADD OR VERIFY 🎯
+origincert: C:\Users\helde\.cloudflared\cert.pem 
+
+# Routing rules for the tunnel
+ingress:
+  - hostname: elsa-artur.yourdomain.com
+    service: http://localhost:5173 
+  - service: http_status:404

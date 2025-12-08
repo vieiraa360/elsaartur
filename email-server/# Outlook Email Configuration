@@ -1,0 +1,13 @@
+# Outlook Email Configuration
+OUTLOOK_EMAIL=helder_vieira@msn.com
+OUTLOOK_PASSWORD=hfncoqetctyefkko
+
+# Server Port
+PORT=3000
+
+# IMPORTANT SECURITY NOTES:
+# 1. Never commit this file to Git! Add .env to your .gitignore
+# 2. For Outlook, you may need to use an "App Password" instead of your regular password
+#    - Go to account.microsoft.com > Security > Advanced security options
+#    - Enable "App passwords" and generate one for this application
+# 3. Make sure
